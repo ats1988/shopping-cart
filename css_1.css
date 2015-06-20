@@ -1,0 +1,338 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/08/2014, 19:26:41
+    Author     : aviv
+*/
+
+body
+{
+}
+
+
+#wrapper 
+{
+    position: absolute;
+    height: 1050px;
+    width: 701px;
+    border: 0px solid black;
+    background-color: /*#b5b28e*/none;
+    top: 80px;
+    left: 140px;
+}
+
+header 
+{
+    position: absolute;
+    height: 170px;
+    width: 701px;
+    border: 0px solid pink;
+    background-image: url(Images/header.gif);
+    border: 0px solid green;
+    top: 0px;
+    right: 0px;
+}
+
+#connection 
+{
+    position: absolute;
+    height: 25px;
+    width: 135px;
+    border: 0px solid brown;
+    background-image: url(Images/connection.gif)/*green*/;
+    right:0px ;
+    text-align: center; font: 12px; 
+}
+
+#star 
+{
+    position: absolute;height: 25px; width: 35px;border: 1px solid yellow;background-color: none;right:0px ;text-align: center; font: 12px; 
+}
+
+#for_slide_login
+{
+    position: absolute;
+    height: 160px;
+    width: 250px;
+    border: 0px solid yellow;
+    top:28px;
+    right: 25px;
+    background-image: url(Images/for_slide_login.gif);
+    display: none;
+    padding-top: 2px;
+    text-align: center;
+}
+
+
+
+
+
+#for_nav 
+{
+    position: absolute;
+    height: 130px;
+    width: 700px;
+    background-color:none/*#889479*/;
+    background-image: url(for_nav.gif);
+    bottom: 0px;
+    right: 0px;
+}
+
+#logo 
+{
+    position: absolute;
+    height: 70px;
+    width: 220px;
+    background-color: none/*#3c800e*/;
+    bottom: 0px;
+    left: 480px;
+}
+
+#log_in 
+{
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    background-color: none/*#506344*/;
+    bottom: 0px;
+    left: 380px;
+}
+
+nav 
+{
+    position: absolute;
+    height: 25px;
+    width: 430px;
+    border: 0px solid black;
+    background-color: none/*#666d68*/;
+    bottom: 8px;
+    left: 55px;
+}
+
+section 
+{
+    position: absolute;
+    height: 845px;
+    width: 701px;
+    border: 0px solid yellow;
+    background-image: url(Images/section.gif);
+    top: 170px;
+    right: 0px;
+}
+
+#holding
+{
+    position: absolute;
+    height: 96%;
+    width: 94%;
+    border: 0px solid green;
+    background-color: /*#dcdbd6*/none;
+    top: 20px;
+    left: 20px; 
+}
+
+#into_LS
+{
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    border: 0px solid green;
+    background-image: url(Images/into_LS.gif);
+    left: 0px;
+}
+
+#into_RS
+{
+    position: absolute;
+    height: 100%;
+    width: 24%;
+    border: 0px solid green;
+    background-image: url(Images/into_RS.gif);
+    right: 0px;
+}
+
+
+footer 
+{
+    position: absolute;
+    height: 35px;
+    width: 100%;
+    border: 0px solid yellow;
+    background-image: url(Images/footer.gif);
+    bottom: 0px;
+    left: 0px;
+}
+
+
+a
+{
+   text-decoration: none;
+}
+
+/*IMAGES*/
+
+#arrow_down
+{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+
+/////////////////////////
+
+#ul01 {
+background-color:#dcdbd6;
+width: 467px;
+height: 29px;
+/*border-spacing: 2px;*/
+border: 0px solid green;
+/*table-layout:  inherit;*/
+position: absolute;
+bottom: -19px;
+left: 180px;
+opacity: 0.5;
+border-spacing: 20px;
+}
+
+#ul01 li {
+border: 0px solid black;
+text-align: center;
+line-height: -23px;
+width: 80px;
+background-color: /*#e4bf11*/none;
+display: inline;
+float: right;
+margin:-15px 0px 5px -2px;
+font-size:15px;
+font-family: 'Adobe Hebrew';
+color: #ffffff;
+font-size: 15px;
+}
+
+#ul01 li:hover
+{
+    background-color: #c4cec8;
+    opacity: 0.7;
+}
+
+//style.css - proj= phpshopping cart
+
+
+
+#products-wrapper {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.products {
+	width: 60%;
+	float:left;
+	margin-right: 10px;
+}
+.product {
+	margin-bottom: 10px;
+	height: 100px;
+	background: #F0F0F0;
+	padding: 10px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #F8F8F8;
+	
+}
+.product .product-thumb {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-right: 10px;
+}
+.product .product-content{
+	overflow:hidden;
+}
+.product .product-content h3 {
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	color: #707070;
+}
+.product .product-info {
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top:10px;
+}
+
+.shopping-cart{
+	width: 85%;
+	float:left;
+	background: #F0F0F0;
+	padding: 10px;	
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+.shopping-cart h2 {
+	background: #E2E2E2;
+	padding: 4px;
+	font-size: 14px;
+	margin: -10px -10px 5px;
+	color: #707070;
+}
+
+.shopping-cart h3,.view-cart h3 {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.shopping-cart ol{
+	padding: 1px 0px 0px 15px;
+}
+.shopping-cart .cart-itm, .view-cart .cart-itm{
+	border-bottom: 1px solid #DDD;
+	font-size: 11px;
+	font-family: arial;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.shopping-cart .remove-itm, .view-cart .remove-itm{
+	font-size: 14px;
+	float: right;
+	background: #D5D5D5;
+	padding: 4px;
+	line-height: 8px;
+	border-radius: 3px;
+}
+.shopping-cart .remove-itm:hover, .view-cart .remove-itm:hover{
+	background: #C4C4C4;
+}
+.shopping-cart .remove-itm a, .view-cart .remove-itm a{
+	color: #888;
+	text-shadow: 1px 1px 1px #ECECEC;
+	text-decoration:none;
+}
+
+.check-out-txt{
+	float:right;
+}
+
+/*** view cart **/
+.view-cart{
+	width: 100%;
+	float:left;
+	background: #F0F0F0;
+	padding: 10px;	
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+.view-cart .p-price{
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.view-cart .product-info{width:60%;}
+
+
