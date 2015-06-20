@@ -1,0 +1,56 @@
+#tabs-1  { font-family:Arial,sans-serif;}
+/*div#main {
+	width:600px;
+	background-color:#ddd;
+	padding:0 20px;
+        border-radius: 20px;
+}
+h1,h2  {
+   text-align:center;
+   }*/
+#tabs-1 label {
+      float:right;
+      width:40%;
+   }
+l#tabs-1 abel.r {
+    float:right;  
+    width:40%;
+}
+#tabs-1 input[type=text] {
+   float: right;
+   width:25%;
+   border-radius: 5px;
+}
+
+/*input[type=radio] {
+   float: right;
+   width:10%;
+   mmargin-right: 0;
+   mmargin-left: 10px;
+}*/
+#tabs-1 input[type=submit] {
+    margin-right:45%;
+    border-radius: 5px;
+    font-size:larger;
+}
+#tabs-1 span.req {
+    color:red;      
+}
+#tabs-1 span#comment {font-size:40%;}
+
+#tabs-1 span.srv_err {
+     color: red;    
+     float: left;
+     width:30%;
+     font-size: 0.75em;
+     font-weight:normal;
+}
+/* CSS rules for the validation error messages */
+#tabs-1 label.error { 
+     color: red;    
+     float: left;
+     width:30%;
+     font-size: 0.75em;
+}
+
+
