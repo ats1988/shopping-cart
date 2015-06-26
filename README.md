@@ -13,7 +13,7 @@ on xampp server
 2) copy all files into this folder, create extra folder name it as Images 
 then all Belonging files
 in issues section download and copy it to airplans Folder 
-3) define index.php file as your defualt 
+3) define index.php file as your default 
 open browser get into the first page
 index.php
 
